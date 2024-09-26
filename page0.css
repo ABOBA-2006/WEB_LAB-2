@@ -1,0 +1,111 @@
+@import url("common_properties.css");
+
+
+
+body{
+	 height: 100vh;
+}
+
+div{
+	display: flex;
+	border-width: 0;
+	border-style: solid;
+	border-color: black;
+}
+
+
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: unset;
+	height: 25vh;
+	width:100vw;
+	background: lightblue;
+	border-width: 1px;
+	gap:54vw;
+}
+
+.header__text{
+	width: 17vw;
+	margin-left:4vw;
+}
+
+
+.content{
+	flex-direction: row;
+}
+
+.content-left{
+	width: 75vw;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.content-left__small-blocks{
+	flex-direction: column;
+}
+
+.content-left__small-blocks__block-1{
+	height: 25vh;
+	width:25vw;
+	background: lightcyan;
+	border-width: 0px 1px 1px 1px;
+}
+
+.content-left__small-blocks__block-2{
+	height: 25vh;
+	width:25vw;
+	background: lavender;
+	border-width: 0px 1px 0px 1px;
+}
+
+.content-left__wide-block{
+	display: flex; 
+  	flex-direction: column;
+	height: 50vh;
+	width:50vw;
+}
+
+.content-left__wide-block__photo{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content-left__wide-block__menu{
+  	display: flex; 
+  	flex-direction: column;
+  	justify-content: center; 
+  	list-style-type: none; 
+  	font-size: 2.5vw;
+}
+
+.content-left__wide-block__menu li {
+	margin-top: 1vh;
+	text-align: center;
+}
+
+.content-left__footer{
+	height: 25vh;
+	width:75vw;
+	background: #FAADC2;
+	border-width: 1px 0px 1px 1px;
+	justify-content: unset;
+	position: relative;
+}
+
+.content-left__footer__title{
+	position: absolute;
+	top:0;
+	left:5vw;
+}
+
+.content-left__footer__text{
+	margin-left: 55vw;
+}
+
+.content-right{
+	height: 75vh;
+	width:25vw;
+	background: lightsalmon;
+	border-width: 0px 1px 1px 1px;
+}
